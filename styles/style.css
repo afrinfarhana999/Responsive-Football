@@ -4,34 +4,77 @@
 /* common styles or, utilities */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
+/* ------------------
+    nav-styles
+---------------------*/
+
+.nav-container .nav-item{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    /* background: #2D25A0; */
+    padding: 43px;
+    
+}
+.nav-item{
+    width: 1160px;
+    height: 40px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav a{
+    margin-right: 36px;
+}
+.nav-item .nav-2{
+    width: 123px;
+    height: 44px;
+    background-color: #E02C6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* thumbnail styles */
 .container{
     background: #2D25A0;
     /* background-color: no-repeat; */
-    height: 500px;
+    /* height: 500px; */
     /* width: 1440px;
     height: 677px; */
     /* margin-top: 30px; */
 }
 .thumbnail-info{
     display: flex;
-    /* flex-direction:row; */
-    justify-content: center;
-    /* justify-content: space-around; */
+    flex-direction:row;
+    /* justify-content: center; */
+    justify-content: space-around;
     align-items: center;
+    padding: 40px;
 }
-.title{
-    /* font-weight: 700; */
+.thumbnail-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* width: 480px;
+    height: 230px; */
+}
+.title, h1{
+    margin: 0;
+    font-weight: bold;
     color: #FFFFFF;
-    font-size: 60px;
-    width: 480px;
-    height: 230px;
+    font-size: 2em;
+    /* width: 480px;
+    height: 230px; */
     /* margin: 0; */
 }
 .live-style{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +97,7 @@ margin:0;
 .thumbnail-info .thumbnail-banner img{
     Width :556.01px;
     Height :438px;
-    margin-top: 50px;
+    margin-top: 13px;
 }
 
 /* ----------------
@@ -130,4 +173,24 @@ margin:0;
 .highlight-info .p-color{
     /* color: lightgrey; */
     color:  rgb(158, 155, 155);
+}
+
+/* -----------------
+    footer
+------------------- */
+
+.footer-section{
+    margin-top: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center; */
+
+}
+.icon{
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
 }
