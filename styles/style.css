@@ -51,11 +51,7 @@ display: none;
 /* thumbnail styles */
 .container{
     background: #2D25A0;
-    /* background-color: no-repeat; */
-    /* height: 500px; */
-    /* width: 1440px;
-    height: 677px; */
-    /* margin-top: 30px; */
+    
 }
 .thumbnail-info{
     display: flex;
